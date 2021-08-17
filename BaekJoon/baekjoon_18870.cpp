@@ -20,5 +20,7 @@ int main() {
 	for (int i = 0; i < N; i++) {
 		cout << lower_bound(count.begin(), count.end(), v.at(i)) - count.begin() <<" ";
 	}
+	cout << '\n';
+
 	return 0;
 }
